@@ -1,7 +1,7 @@
 provider "aws" {
 region = "us-east-1"
 }
-resource "aws_instance" "myec3" {
+resource "aws_instance" "myec4" {
 ami = "ami-098e39bafa7e7303d"
 instance_type = "t3.micro"
 tags = {
